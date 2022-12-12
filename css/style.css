@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
 * {
 	margin: 0;
 	padding: 0;
@@ -6,5 +8,68 @@
 }
 
 body {
-	background-color: #808080;
+	max-width: 1920px;
+	margin: auto;
+	font-family: "Open Sans", sans-serif;
+}
+
+/* CSS for nav bar */
+.navbar {
+	background-color: #151515;
+	color: #bdbdbd;
+	display: flex;
+	flex-direction: row;
+	padding: 25px 120px;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 500;
+}
+
+.nav-list {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nav-list li {
+	margin: 0 30px;
+}
+
+.right-nav {
+	display: flex;
+	flex-direction: row;
+}
+
+.right-nav li {
+	margin-left: 30px;
+	list-style-type: none;
+}
+
+.right-nav li:first-child::after {
+	content: " \0002C7";
+	position: relative;
+	top: 2px;
+	width: 5px;
+	padding: 10px;
+}
+
+button {
+	background: transparent;
+	border: none;
+}
+
+.top-button {
+	color: #bdbdbd;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	padding-right: 70px;
+}
+
+.contact {
+	margin-top: 2px;
+	font-size: 16px;
+	position: absolute;
+	left: 18px;
 }
