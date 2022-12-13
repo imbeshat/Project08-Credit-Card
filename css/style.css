@@ -11,12 +11,13 @@ body {
 	max-width: 1920px;
 	margin: auto;
 	font-family: "Open Sans", sans-serif;
+	overflow-x: hidden;
 }
 
 /* CSS for nav bar */
 .navbar {
 	background-color: #151515;
-	color: #bdbdbd;
+	color: #f0f0f0;
 	display: flex;
 	flex-direction: row;
 	padding: 25px 120px;
@@ -60,7 +61,7 @@ button {
 }
 
 .btn-contact {
-	color: #bdbdbd;
+	color: #f0f0f0;
 	display: flex;
 	flex-direction: row;
 	position: relative;
@@ -73,3 +74,113 @@ button {
 	position: absolute;
 	left: 18px;
 }
+
+/* CSS for hero section */
+.hero-section {
+	background-color: #151515;
+	color: #ffffff;
+	padding-left: 100px;
+	padding-top: 70px;
+	padding-bottom: 130px;
+}
+
+.text-section {
+	width: 70vw;
+}
+
+.heading {
+	font-size: 92px;
+	font-weight: 500;
+}
+
+.heading span {
+	color: #f637ec;
+	font-weight: 700;
+}
+
+#head-para {
+	width: 60%;
+	color: #c1c1c1;
+	font-size: 22px;
+	font-weight: 400;
+	padding: 50px 0;
+}
+
+.get-started {
+	font-size: 24px;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	padding: 40px 0;
+}
+
+.get-started-img {
+	width: 5vw;
+}
+
+.arrow-img {
+	width: 3vw;
+}
+
+.get-started p {
+	margin-top: 2px;
+	padding-right: 20px;
+	margin-left: -38px;
+}
+
+.cust-satisfaction {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 35px;
+	font-weight: 100;
+	padding: 18px 0;
+}
+
+.cust-satisfaction span {
+	color: #fc38f1;
+}
+
+.cust-satisfaction p {
+	color: #c5c5c5;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.pipe-icon::after {
+	content: " | ";
+	font-size: 60px;
+	font-weight: 100;
+	background: linear-gradient(#3f3f3f, #8d8d8d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding-left: 50px;
+	padding-right: 40px;
+	padding-bottom: 9px;
+}
+
+.back-card {
+	position: absolute;
+	right: 0;
+	top: 45px;
+}
+
+.front-card {
+	position: absolute;
+	right: -240px;
+	top: 115px;
+}
+
+/* CSS for all logo section */
+/* .logo-section {
+	background-color: #292929;
+	padding: 90px 180px;
+}
+
+.all-logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+} */
