@@ -266,3 +266,32 @@ button {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* CSS for card choices section */
+.card-choices {
+	background-color: #fceffb;
+	padding: 120px 0 0 0;
+	text-align: center;
+}
+
+.card-choices-toptext {
+	font-size: 77px;
+	font-weight: 500;
+	padding: 0 300px;
+}
+
+.card-choices-toptext span {
+	color: #f637ec;
+	font-weight: 700;
+}
+
+.card-choices-bottomtext {
+	font-size: 22px;
+	padding: 70px 400px 0 400px;
+	color: #6e696d;
+}
+
+.card-choices img {
+	position: relative;
+	top: -40px;
+}
