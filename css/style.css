@@ -173,7 +173,7 @@ button {
 }
 
 /* CSS for all logo section */
-/* .logo-section {
+.logo-section {
 	background-color: #292929;
 	padding: 90px 180px;
 }
@@ -183,4 +183,4 @@ button {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-} */
+}
