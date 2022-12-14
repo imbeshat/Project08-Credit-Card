@@ -393,3 +393,45 @@ button {
 	margin: 0 10px;
 	margin-left: 185px;
 }
+
+/* CSS for customisation section */
+.custom-cards {
+	background-color: #151515;
+	color: #ffffff;
+	text-align: center;
+}
+
+.cust-card-div {
+	position: relative;
+}
+
+.rectangle2 {
+	top: 0;
+	position: absolute;
+}
+
+.custom-head {
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	right: 200px;
+}
+
+.custom-head h1 {
+	font-size: 82px;
+	font-weight: 600;
+}
+
+.custom-head h1 span {
+	color: #151515;
+	font-weight: 700;
+}
+
+.btn-started {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 60%;
+	right: 41%;
+}
