@@ -148,18 +148,9 @@ button {
 	font-weight: 500;
 }
 
-.pipe-icon::after {
-	content: " | ";
-	font-size: 60px;
-	font-weight: 100;
-	background: linear-gradient(#3f3f3f, #8d8d8d);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	padding-left: 50px;
-	padding-right: 40px;
-	padding-bottom: 9px;
+.cust-satisfaction img {
+	padding: 10px 50px 0 50px;
 }
-
 .back-card {
 	position: absolute;
 	right: 0;
@@ -294,4 +285,12 @@ button {
 .card-choices img {
 	position: relative;
 	top: -40px;
+}
+
+/* CSS for stars section */
+.stars-section {
+	background-color: #151515;
+	padding: 90px 0;
+	color: #ffffff;
+	text-align: center;
 }
