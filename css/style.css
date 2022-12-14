@@ -291,7 +291,105 @@ button {
 /* CSS for stars section */
 .stars-section {
 	background-color: #151515;
-	padding: 90px 0;
+	padding: 130px 0;
 	color: #ffffff;
+}
+
+.stars-text {
 	text-align: center;
+	font-size: 85px;
+	font-weight: 400;
+	padding: 0 130px;
+}
+
+.stars-text span {
+	color: #f637ec;
+	font-weight: 700;
+}
+
+.stars-para {
+	text-align: center;
+	font-weight: 600;
+	font-size: 22px;
+	padding: 60px 400px 0 400px;
+	color: #6e696d;
+}
+
+.stars-card {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+	grid-column-gap: 100px;
+	grid-row-gap: 80px;
+	padding: 100px 180px 0 180px;
+}
+
+.grid-cards {
+	border: 2px solid #747474;
+	background-color: #1e1f24;
+	padding: 20px 30px 25px 30px;
+	color: #d1d2d2;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.card1 {
+	border: 3px solid #bfbebd;
+	margin-bottom: 28px;
+	background-color: #504e4d;
+}
+
+.cards-para {
+	padding: 30px 0;
+}
+
+.rator-country {
+	font-size: 17px;
+}
+
+.star-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 45px 0;
+	margin-left: 300px;
+	position: relative;
+}
+
+.btn {
+	border-radius: 50%;
+	background-color: #a52c2c;
+	position: absolute;
+	top: 20%;
+	left: 80%;
+}
+
+.btn1 {
+	padding: 10px 50px;
+	border-radius: 50px;
+	background-color: #f637ec;
+}
+
+.btn2 {
+	padding: 10px 10px;
+	border-radius: 50%;
+	background-color: #484348;
+	margin: 0 10px;
+	margin-left: 115px;
+}
+
+.btn3 {
+	padding: 10px 10px;
+	border-radius: 50%;
+	background-color: #484348;
+	margin: 0 10px;
+	margin-left: 150px;
+}
+
+.btn4 {
+	padding: 10px 10px;
+	border-radius: 50%;
+	background-color: #484348;
+	margin: 0 10px;
+	margin-left: 185px;
 }
