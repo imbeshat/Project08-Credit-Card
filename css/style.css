@@ -432,6 +432,11 @@ button {
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	top: 60%;
+	top: 0;
 	right: 41%;
+}
+
+.left-diamond {
+	position: absolute;
+	top: 0;
 }
