@@ -8,7 +8,7 @@
 }
 
 body {
-	max-width: 1920px;
+	max-width: 1440px;
 	margin: auto;
 	font-family: "Open Sans", sans-serif;
 	overflow-x: hidden;
@@ -89,7 +89,7 @@ button {
 }
 
 .heading {
-	font-size: 92px;
+	font-size: 85px;
 	font-weight: 500;
 }
 
@@ -152,16 +152,22 @@ button {
 	padding: 10px 50px 0 50px;
 }
 
+.image-section {
+	position: relative;
+}
+
 .back-card {
 	position: absolute;
 	right: 0;
-	top: 45px;
+	top: -820px;
+	left: 410px;
 }
 
 .front-card {
+	clip-path: polygon(0 0, 75% 0%, 75% 100%, 0% 100%);
 	position: absolute;
-	right: -240px;
-	top: 115px;
+	top: -730px;
+	left: 620px;
 }
 
 /* CSS for all logo section */
@@ -443,13 +449,13 @@ button {
 .left-diamond {
 	position: absolute;
 	bottom: -15px;
-	right: 40px;
+	right: 0;
 }
 
 .right-diamond {
 	position: absolute;
 	bottom: 35px;
-	left: 40px;
+	left: 0;
 }
 
 /* CSS for footer section */
