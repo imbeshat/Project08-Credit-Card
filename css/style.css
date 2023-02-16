@@ -47,12 +47,16 @@ body {
 	list-style-type: none;
 }
 
-.right-nav li:first-child::after {
-	content: " \0002C7";
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #ffffff;
 	position: relative;
-	top: 2px;
-	width: 5px;
-	padding: 10px;
+	top: 8px;
+	left: 8px;
+	transform: rotate(45deg);
 }
 
 button {
