@@ -1,7 +1,7 @@
 # Project08-Credit-Card
-## A web page for credit card transactions created using Html and CSS
+### A web page for credit card transactions created using Html and CSS
 
-### Link: https://credit-card-transaction.netlify.app/
+### Deployed Link: [Credit-Card](https://credit-card-transaction.netlify.app/)
 
 ![image](https://user-images.githubusercontent.com/48837703/207711625-96c82d80-c5fd-4ae2-aa71-2a796d5d3bde.png)
 
